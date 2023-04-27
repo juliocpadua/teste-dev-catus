@@ -44,6 +44,7 @@ const HomePage = () => {
         <img alt="iconCart" src={Cart} className="iconCart" />
       </header>
       {menuOpen && <NavBarMobile />}
+      
       <main>
         <section className="images-section">
           <div className="images-area">
@@ -127,6 +128,8 @@ const HomePage = () => {
           </section>
         </section>
       </main>
+
+
       <footer>
         <section className="footer-section">
           <h2>Central de Atendimento</h2>
